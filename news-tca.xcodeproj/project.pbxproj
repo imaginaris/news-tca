@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D290181B2B25F7DA000E534D /* news_tcaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290181A2B25F7DA000E534D /* news_tcaApp.swift */; };
+		D290181D2B25F7DA000E534D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290181C2B25F7DA000E534D /* ContentView.swift */; };
+		D290181F2B25F7DD000E534D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D290181E2B25F7DD000E534D /* Assets.xcassets */; };
+		D29018222B25F7DD000E534D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29018212B25F7DD000E534D /* Preview Assets.xcassets */; };
+		D290182C2B25F7DD000E534D /* news_tcaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290182B2B25F7DD000E534D /* news_tcaTests.swift */; };
+		D29018462B25F890000E534D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = D29018452B25F890000E534D /* ComposableArchitecture */; };
+		D290184B2B261F43000E534D /* ArkanaKeys in Frameworks */ = {isa = PBXBuildFile; productRef = D290184A2B261F43000E534D /* ArkanaKeys */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D29018282B25F7DD000E534D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D290180F2B25F7DA000E534D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29018162B25F7DA000E534D;
+			remoteInfo = "news-tca";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D29018172B25F7DA000E534D /* news-tca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "news-tca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D290181A2B25F7DA000E534D /* news_tcaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = news_tcaApp.swift; sourceTree = "<group>"; };
+		D290181C2B25F7DA000E534D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D290181E2B25F7DD000E534D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D29018212B25F7DD000E534D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D29018272B25F7DD000E534D /* news-tcaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "news-tcaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D290182B2B25F7DD000E534D /* news_tcaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = news_tcaTests.swift; sourceTree = "<group>"; };
+		D29018482B261F31000E534D /* ArkanaKeys */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ArkanaKeys; path = ArkanaKeys/ArkanaKeys; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29018142B25F7DA000E534D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D290184B2B261F43000E534D /* ArkanaKeys in Frameworks */,
+				D29018462B25F890000E534D /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29018242B25F7DD000E534D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D290180E2B25F7DA000E534D = {
+			isa = PBXGroup;
+			children = (
+				D29018472B261F31000E534D /* Packages */,
+				D29018192B25F7DA000E534D /* news-tca */,
+				D290182A2B25F7DD000E534D /* news-tcaTests */,
+				D29018182B25F7DA000E534D /* Products */,
+				D29018492B261F43000E534D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D29018182B25F7DA000E534D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29018172B25F7DA000E534D /* news-tca.app */,
+				D29018272B25F7DD000E534D /* news-tcaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29018192B25F7DA000E534D /* news-tca */ = {
+			isa = PBXGroup;
+			children = (
+				D290181A2B25F7DA000E534D /* news_tcaApp.swift */,
+				D290181C2B25F7DA000E534D /* ContentView.swift */,
+				D290181E2B25F7DD000E534D /* Assets.xcassets */,
+				D29018202B25F7DD000E534D /* Preview Content */,
+			);
+			path = "news-tca";
+			sourceTree = "<group>";
+		};
+		D29018202B25F7DD000E534D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D29018212B25F7DD000E534D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D290182A2B25F7DD000E534D /* news-tcaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D290182B2B25F7DD000E534D /* news_tcaTests.swift */,
+			);
+			path = "news-tcaTests";
+			sourceTree = "<group>";
+		};
+		D29018472B261F31000E534D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D29018482B261F31000E534D /* ArkanaKeys */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D29018492B261F43000E534D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29018162B25F7DA000E534D /* news-tca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D290183B2B25F7DD000E534D /* Build configuration list for PBXNativeTarget "news-tca" */;
+			buildPhases = (
+				D29018132B25F7DA000E534D /* Sources */,
+				D29018142B25F7DA000E534D /* Frameworks */,
+				D29018152B25F7DA000E534D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "news-tca";
+			packageProductDependencies = (
+				D29018452B25F890000E534D /* ComposableArchitecture */,
+				D290184A2B261F43000E534D /* ArkanaKeys */,
+			);
+			productName = "news-tca";
+			productReference = D29018172B25F7DA000E534D /* news-tca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D29018262B25F7DD000E534D /* news-tcaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D290183E2B25F7DD000E534D /* Build configuration list for PBXNativeTarget "news-tcaTests" */;
+			buildPhases = (
+				D29018232B25F7DD000E534D /* Sources */,
+				D29018242B25F7DD000E534D /* Frameworks */,
+				D29018252B25F7DD000E534D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29018292B25F7DD000E534D /* PBXTargetDependency */,
+			);
+			name = "news-tcaTests";
+			productName = "news-tcaTests";
+			productReference = D29018272B25F7DD000E534D /* news-tcaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D290180F2B25F7DA000E534D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D29018162B25F7DA000E534D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D29018262B25F7DD000E534D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D29018162B25F7DA000E534D;
+					};
+				};
+			};
+			buildConfigurationList = D29018122B25F7DA000E534D /* Build configuration list for PBXProject "news-tca" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D290180E2B25F7DA000E534D;
+			packageReferences = (
+				D29018442B25F890000E534D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = D29018182B25F7DA000E534D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29018162B25F7DA000E534D /* news-tca */,
+				D29018262B25F7DD000E534D /* news-tcaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29018152B25F7DA000E534D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29018222B25F7DD000E534D /* Preview Assets.xcassets in Resources */,
+				D290181F2B25F7DD000E534D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29018252B25F7DD000E534D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29018132B25F7DA000E534D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D290181D2B25F7DA000E534D /* ContentView.swift in Sources */,
+				D290181B2B25F7DA000E534D /* news_tcaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29018232B25F7DD000E534D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D290182C2B25F7DD000E534D /* news_tcaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D29018292B25F7DD000E534D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29018162B25F7DA000E534D /* news-tca */;
+			targetProxy = D29018282B25F7DD000E534D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D29018392B25F7DD000E534D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D290183A2B25F7DD000E534D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D290183C2B25F7DD000E534D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"news-tca/Preview Content\"";
+				DEVELOPMENT_TEAM = 38KUE5XET9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mk.news-tca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D290183D2B25F7DD000E534D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"news-tca/Preview Content\"";
+				DEVELOPMENT_TEAM = 38KUE5XET9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mk.news-tca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D290183F2B25F7DD000E534D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38KUE5XET9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mk.news-tcaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/news-tca.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/news-tca";
+			};
+			name = Debug;
+		};
+		D29018402B25F7DD000E534D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38KUE5XET9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mk.news-tcaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/news-tca.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/news-tca";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29018122B25F7DA000E534D /* Build configuration list for PBXProject "news-tca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29018392B25F7DD000E534D /* Debug */,
+				D290183A2B25F7DD000E534D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D290183B2B25F7DD000E534D /* Build configuration list for PBXNativeTarget "news-tca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D290183C2B25F7DD000E534D /* Debug */,
+				D290183D2B25F7DD000E534D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D290183E2B25F7DD000E534D /* Build configuration list for PBXNativeTarget "news-tcaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D290183F2B25F7DD000E534D /* Debug */,
+				D29018402B25F7DD000E534D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D29018442B25F890000E534D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D29018452B25F890000E534D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D29018442B25F890000E534D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		D290184A2B261F43000E534D /* ArkanaKeys */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArkanaKeys;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D290180F2B25F7DA000E534D /* Project object */;
+}
